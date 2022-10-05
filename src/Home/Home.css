@@ -610,12 +610,20 @@ p span {
     html {
         font-size: 58% !important;
     }
+    .about .about_img {
+        width: 80%;
+    }
 }
 
 
 @media only screen and (max-width:998px) {
     html {
         font-size: 55% !important;
+    }
+}
+@media only screen and (max-width:991px) {
+    .about .about_img {
+        width: 100%;
     }
 }
 
@@ -626,6 +634,9 @@ p span {
 
     .overlay .play_icon {
         margin-top: -60px;
+    }
+    .about .about_img {
+        width: 60%;
     }
 }
 @media only screen and (max-width:575px) {

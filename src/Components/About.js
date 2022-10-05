@@ -8,7 +8,7 @@ function About() {
   return (
     <section id="about" className="about my-5">
       <div className="container py-5 my-5 ">
-        <div className='row flex-column-reverse flex-lg-row'>
+        <div className='row'>
           <div className="col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12 m-auto ">
             <img src="../images/ab1.png" alt="svf" className='about_img img-fluid ' />
           </div>

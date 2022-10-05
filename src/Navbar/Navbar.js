@@ -53,7 +53,7 @@ function Navbar() {
           show ? <div className="slide" id="slide">
             <ul className="navbar-nav  me-auto mb-lg-0 m-auto">
               <li className="nav-item">
-                <NavLink className="nav-link " to="/">
+                <NavLink className="nav-link " to="/home">
                 <HomeIcon/>
                 Home</NavLink>
               </li>

@@ -145,6 +145,5 @@ li {
 .slide ul li a.active,
 .slide ul li a:hover{
     border-bottom: none !important;
-    transition: all 9s ease;
     color: var(--main-color) !important;
 }
