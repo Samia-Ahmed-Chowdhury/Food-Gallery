@@ -45,6 +45,7 @@ function App() {
         <AppContext.Provider value={{ post, setPost, err, setErr, query, setQuery }}>
           <Routes>
             <Route  path="/" element={<Home />}></Route>
+            <Route  path="/home" element={<Home />}></Route>
             <Route  path="recipe" element={<Recipe />}></Route>
             <Route path="item/:id" element={<Item />}></Route>
             <Route path="recipe/item/:id" element={<Item />}></Route>

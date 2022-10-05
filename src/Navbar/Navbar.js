@@ -8,10 +8,7 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 import CallIcon from '@mui/icons-material/Call';
 
 function Navbar() {
-  let activeStyle = {
-    textDecoration: "underline",
-    color:"green",
-  };
+  
   const [show, setShow] = useState(false)
   return (
     <>
@@ -34,9 +31,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-lg-0 ">
               <li className="nav-item">
-                <NavLink className="nav-link"  style={({ isActive }) =>
-              isActive ? activeStyle : undefined
-            }  to="/">
+                <NavLink className="nav-link"  to="/home">
                 Home</NavLink>
               </li>
               <li className="nav-item">
