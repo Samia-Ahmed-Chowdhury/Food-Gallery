@@ -6,7 +6,6 @@ import HomeIcon from '@mui/icons-material/Home';
 import BookmarkAddIcon from '@mui/icons-material/BookmarkAdd';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import CallIcon from '@mui/icons-material/Call';
-import CustomLink from '../Components/CustomLink';
 
 function Navbar() {
   
@@ -32,11 +31,11 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-lg-0 ">
               <li className="nav-item">
-                <CustomLink className="nav-link"  to="/">
-                Home</CustomLink>
+                <NavLink className="nav-link"  to="/">
+                Home</NavLink>
               </li>
               <li className="nav-item">
-                <CustomLink className="nav-link"  to="about">Our story</CustomLink>
+                <NavLink className="nav-link"  to="about">Our story</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/recipe" >Recipe</NavLink>
@@ -54,9 +53,9 @@ function Navbar() {
           show ? <div className="slide" id="slide">
             <ul className="navbar-nav  me-auto mb-lg-0 m-auto">
               <li className="nav-item">
-                <CustomLink className="nav-link " to="/">
+                <NavLink className="nav-link " to="/">
                 <HomeIcon/>
-                Home</CustomLink>
+                Home</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
@@ -64,7 +63,7 @@ function Navbar() {
                 Our story</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/recpi">
+                <NavLink className="nav-link" to="/recipe">
                 <MenuBookIcon className='slide_icon'/>
                 Recipe</NavLink>
               </li>

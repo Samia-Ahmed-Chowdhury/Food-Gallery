@@ -25,7 +25,7 @@ function Hero() {
          nextImageId = 0;
   
        }
-     }, 20000);
+     }, 10000);
 
     return (
         <>

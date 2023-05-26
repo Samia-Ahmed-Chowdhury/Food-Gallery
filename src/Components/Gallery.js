@@ -37,7 +37,7 @@ function Gallery() {
               }
               )
             }
-            <NavLink className="nav-link" to="/recpi">
+            <NavLink className="nav-link" to="/recipe">
             <p>Check Out More <KeyboardArrowRightIcon /> </p>
             </NavLink>
           </div>
