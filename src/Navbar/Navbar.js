@@ -63,7 +63,7 @@ function Navbar() {
                 Our story</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/recipe">
+                <NavLink className="nav-link" to="/recpi">
                 <MenuBookIcon className='slide_icon'/>
                 Recipe</NavLink>
               </li>

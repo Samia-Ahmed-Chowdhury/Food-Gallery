@@ -16,8 +16,6 @@ Food Gallery is mainly based on Food lover who love learn recipes
 4. React
 5. Axios
 <br/>
-<hr/>
-<br/>
 
 ## ****Features****
 
