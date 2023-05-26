@@ -20,10 +20,10 @@ Food Gallery is mainly based on Food lovers who love to learn recipes.
 ## ****Features****
 
  - It is a Recipes Gallery for Food Lover..  
- - User can see the recipe for their desire food..
- - User can search their fav Dish ..
- - User can know the rating of particular dish..
- - User can see the Ingrendient list with its measure..
-- User can see the Instructions of cooking the dishes ..
-- User also able to watch videos of how to cook each dish..
+ - Users can see the recipe for their desire food..
+ - Users can search their fav Dish ..
+ - Users can know the rating of particular dish..
+ - Users can see the Ingrendient list with its measure..
+- Users can see the Instructions of cooking the dishes ..
+- Users also able to watch videos of how to cook each dish..
 <br/>
