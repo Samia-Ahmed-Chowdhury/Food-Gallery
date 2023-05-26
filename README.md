@@ -1,7 +1,7 @@
 
 # **Food Gallery**
 
-Food Gallery is mainly based on Food lover who love learn recipes  
+Food Gallery is mainly based on Food lovers who love to learn recipes.
    
 <br/>
 
